@@ -14,7 +14,7 @@ a {
 	font-size: 16px;
 	text-decoration: none;
 	color: black;
-	transition: 0.15s;
+	transition: 0.3s;
 }
 
 a:hover {
@@ -50,7 +50,7 @@ a:hover {
 
 .inside {
 	position: absolute;
-	bottom: 3%;
+	bottom: 5%;
 	right: 10%;
 	font-family: Poller One;
 }
@@ -98,6 +98,7 @@ a:hover {
 	background-color: #829eb8;
 	color: white;
 	padding: 20px;
+	transition: 0.3s;
 }
 
 .read-more {
@@ -143,6 +144,11 @@ span {
 	font-family: Poller One;
 	font-size: 20px;
 	padding-top: 33px;
+	color: black;
+}
+
+span:hover {
+	color: black;
 }
 
 footer {
