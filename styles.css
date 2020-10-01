@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Molle:ital@1&family=Poller+One&display=swap');
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.header {
+	text-align:center;
+	font-family: Molle;
+	font-size: 36px;
+}
+
+a {
+	font-size: 16px;
+	text-decoration: none;
+	color: black;
+	transition: 0.15s;
+}
+
+a:hover {
+	color: #829eb8;
+}
+
+.navigation {
+	word-spacing: 30px;
+	padding: 40px;
+	padding-bottom: 60px;
+	font-family: Lato;
+}
+
+.company-name {
+	text-align: center;
+}
+
+.logo-img {
+	width: 10%;
+}
+
+.main-img {
+	width: 100%;
+}
+
+.main-image-container {
+	position: relative;
+	text-align: center;
+	color: white;
+	width: 100%;
+	font-family: Poller One;
+}
+
+.inside {
+	position: absolute;
+	bottom: 3%;
+	right: 10%;
+	font-family: Poller One;
+}
+
+.main-inside {
+	font-family: Poller One;
+	font-size: 20px;
+	background-color: white;
+	padding: 25px;
+}
+
+.subset-inside-1 {
+	font-family: Lato;
+	width: 280px;
+	font-size: 16px;
+	background-color: black;
+	color: white;
+	padding: 20px;
+	margin: 10px;
+}
+
+.subset-inside-2 {
+	font-family: Lato;
+	font-size: 16px;
+	background-color: black;
+	color: white;
+	padding: 20px;
+	margin: 10px;
+}
+
+.subset-inside-3 {
+	font-family: Lato;
+	width: 150px;
+	font-size: 16px;
+	background-color: black;
+	color: white;
+	padding: 20px;
+	margin: 10px;
+}
+
+.subset-inside-4 {
+	font-family: Lato;
+	width: 93px;
+	font-size: 16px;
+	background-color: #829eb8;
+	color: white;
+	padding: 20px;
+}
+
+.read-more {
+	width: 100%;
+	height: 100%;
+	color: white;
+}
+
+.read-more:hover {
+	color: white;
+}
+
+.subset-inside-4:hover {
+	filter: brightness(1.1);
+	cursor: pointer;
+}
+
+.gallery-flex {
+	display: flex;
+	text-align: center;
+	justify-content: center;
+}
+
+.gallery-anchor {
+	width: 300px;
+	padding: 10px;
+	margin-top: 15px;
+}
+
+.gallery-img {
+	width: 300px;
+	margin: auto;
+	border: 2px solid black;
+	opacity: 0.9;
+	transition: 0.5s;
+}
+
+.gallery-img:hover {
+	opacity: 1;
+}
+
+span {
+	font-family: Poller One;
+	font-size: 20px;
+	padding-top: 33px;
+}
+
+footer {
+	display: inline-flex;
+	flex-wrap: nowrap;
+	width: 100%;
+	background-color: #252525;
+	margin: 0;
+	margin-top: 35px;
+	padding: 36px 0 42px;
+	color: white;
+}
+
+.copyright {
+	float: left;
+	width: 400px;
+	margin-left: 10px;
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
+p {
+	margin-left: 10px;
+	font-family: Lato;
+	font-size: 14px;
+}
+
+.buttons {
+	display: flex;
+	margin-left: 50vw;
+}
+
+.social-button {
+	filter: invert(100%);
+	opacity: 0.7;
+	width: 50px;
+	padding: 10px;
+}
+
+.social-button:hover {
+	opacity: 1;
+}
