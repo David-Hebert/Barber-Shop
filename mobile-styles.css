@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Molle:ital@1&family=Poller+One&display=swap');
+a {
+	font-size: 10px;
+}
+
+
+footer {
+	width: 100%;
+}
+
+.copyright p {
+	font-size: 12px;
+	width: 250px;
+}
+
+.buttons {
+	margin-left: 5vw;
+}
+
+.social-button {
+	width: 25px;
+	height: 25px;
+}
+
+.inside {
+	display: none;
+}
+
+.mobile-inside {
+	display: block;
+	position: absolute;
+	left: 47%;
+	top: 50%;
+	background-color: #252525;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-right: 5px;
+	color: white;
+}
+
+.mobile-inside p {
+	font-family: Poller One;
+	font-size: 12px;
+}
+
+.gallery-flex {
+	display: flex;
+	text-align: center;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.about-main h1 {
+	font-size: 20px;
+	width: 250px;
+}
+
+.about-main {
+	width: 90%;
+}
+
+.gallery-main h1 {
+	font-size: 20px;
+	width: 160px;
+}
+
+.about-main-image {
+	width: 100%;
+}
+
+.gallery-grid-container {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.blog-main h1 {
+	font-size: 20px;
+	width: 100px;
+}
+
+.blog-flex-container {
+	flex-wrap: wrap;
+}
+
+.blog-img {
+	border-right: 2px solid black;
+	border-bottom: none;
+	width: 350px;
+}
+
+.blog-img-info {
+	width: 350px;
+}
+
+.blog-img-info p {
+	width: 350px;
+	margin: auto;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.blog-img-info button:hover {
+	border-bottom: none;
+}
+
+.contact-main {
+	width: 100%;
+}
+
+.contact-main h1 {
+	font-size: 20px;
+	width: 275px;
+}
+
+.contact-main input {
+	width: 75%;
+}
+
+.contact-main textarea {
+	width: 75%;
+}
+
